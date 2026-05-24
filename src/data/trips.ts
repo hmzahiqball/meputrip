@@ -114,6 +114,6 @@ export const CATEGORIES = [
   { id: "camping", label: "Camping" },
 ] as const;
 
-export const RESERVASI_URL = "https://forms.gle/RESERVASI_URL";
-export const SPREADSHEET_URL = "https://docs.google.com/spreadsheets/SPREADSHEET_URL";
+export const RESERVASI_URL = "https://docs.google.com/forms/d/e/1FAIpQLScc-wws_1x2hcVSKKYPz2dVtTfcWxBJMrvNEV1MWLdb1KTc1Q/viewform";
+export const SPREADSHEET_URL = "https://docs.google.com/spreadsheets/d/12zgmkCY7CRN2DJ-Z3LQL3KvZH-a7e3-1reiNFO25h0c/edit?gid=754375181#gid=754375181";
 export const WHATSAPP_NUMBER = "6281234567890";

@@ -38,10 +38,9 @@ export function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.1 }}
-            className="mt-6 font-display text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white text-balance leading-[1.02]"
+            className="mt-8 font-display text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white text-balance leading-[1.02]"
           >
-            Temukan kembali <br />
-            <span className="italic font-light text-accent">dirimu</span> di alam.
+            Mepu<span className="italic font-light text-accent">Trip.</span>
           </motion.h1>
 
           <motion.p
