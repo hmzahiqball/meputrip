@@ -35,7 +35,7 @@ export function Footer() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="rounded-3xl bg-gradient-emerald p-8 md:p-12 flex flex-col md:flex-row md:items-center gap-6 justify-between mb-20 shadow-glow"
+          className="rounded-3xl bg-gradient-merah p-8 md:p-12 flex flex-col md:flex-row md:items-center gap-6 justify-between mb-20 shadow-glow"
         >
           <div className="max-w-md">
             <h3 className="font-display text-3xl md:text-4xl font-bold text-primary-foreground text-balance">

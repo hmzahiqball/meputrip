@@ -23,7 +23,7 @@ export function Loader() {
               initial={{ scale: 0.6, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-              className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-emerald shadow-glow"
+              className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-merah shadow-glow"
             >
               <Mountain className="h-7 w-7" />
             </motion.div>

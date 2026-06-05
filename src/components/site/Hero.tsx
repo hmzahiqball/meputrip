@@ -2,7 +2,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { ArrowRight, Calendar, MapPin, Star } from "lucide-react";
 import { useRef } from "react";
 import heroImg from "@/assets/hero-mountain.jpg";
-import { RESERVASI_URL, SPREADSHEET_URL } from "@/data/trips";
+import { message, WHATSAPP_NUMBER, SPREADSHEET_URL } from "@/data/trips";
 
 export function Hero() {
   const ref = useRef<HTMLDivElement>(null);
@@ -60,7 +60,7 @@ export function Hero() {
             className="mt-9 flex flex-wrap items-center gap-3"
           >
             <a
-              href={RESERVASI_URL}
+              href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`}
               target="_blank"
               rel="noreferrer"
               className="group inline-flex items-center gap-2 rounded-full bg-accent px-7 py-3.5 text-sm font-semibold text-accent-foreground shadow-lift transition-all hover:-translate-y-0.5 hover:bg-accent/90"

@@ -115,5 +115,25 @@ export const CATEGORIES = [
 ] as const;
 
 export const RESERVASI_URL = "https://docs.google.com/forms/d/e/1FAIpQLScc-wws_1x2hcVSKKYPz2dVtTfcWxBJMrvNEV1MWLdb1KTc1Q/viewform";
-export const SPREADSHEET_URL = "https://docs.google.com/spreadsheets/d/12zgmkCY7CRN2DJ-Z3LQL3KvZH-a7e3-1reiNFO25h0c/edit?gid=754375181#gid=754375181";
+export const SPREADSHEET_URL = "https://docs.google.com/spreadsheets/d/1cuc5_0HXcv1Ln-5ASBaQ6LKnRU4s3zMsiPylfF27yMY/edit?usp=sharing";
 export const WHATSAPP_NUMBER = "6281234567890";
+export const message = `Halo MepuTrip, saya ingin menanyakan ketersediaan (availability) dan estimasi harga untuk rencana perjalanan dengan detail berikut:
+
+*Data Perjalanan*
+- Nama Penanggung Jawab:
+- Destinasi Tujuan:
+- Tanggal Keberangkatan:
+- Tanggal Kepulangan:
+- Jumlah Peserta (Pax):
+- Kategori Trip:
+
+*Kebutuhan Layanan*
+- Transportasi:
+- Akomodasi:
+- Tour Guide:
+- Katering/Konsumsi:
+
+*Catatan Khusus:*
+(Tuliskan request khusus, misal: bertepatan dengan libur Lebaran, butuh akses kursi roda, alergi makanan, dll)
+
+Mohon informasi ketersediaannya. Terima kasih!`;

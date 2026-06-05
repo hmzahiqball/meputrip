@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Menu, X, Mountain } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { RESERVASI_URL } from "@/data/trips";
+import { message, WHATSAPP_NUMBER } from "@/data/trips";
 
 const LINKS = [
   { href: "#home", label: "Home" },
@@ -76,7 +76,7 @@ export function Navbar() {
 
         <div className="hidden lg:flex items-center gap-3">
           <a
-            href={RESERVASI_URL}
+            href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`}
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center justify-center rounded-full bg-accent px-5 py-2.5 text-sm font-semibold text-accent-foreground shadow-soft transition-all hover:bg-accent/90 hover:shadow-lift hover:-translate-y-0.5"
@@ -116,7 +116,7 @@ export function Navbar() {
             </a>
           ))}
           <a
-            href={RESERVASI_URL}
+            href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`}
             target="_blank"
             rel="noreferrer"
             className="mt-2 block text-center rounded-full bg-accent px-5 py-3 font-semibold text-accent-foreground"

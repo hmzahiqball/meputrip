@@ -2,10 +2,31 @@ import { motion } from "framer-motion";
 import { MessageCircle } from "lucide-react";
 import { WHATSAPP_NUMBER } from "@/data/trips";
 
+const message = `Halo MepuTrip, saya ingin menanyakan ketersediaan (availability) dan estimasi harga untuk rencana perjalanan dengan detail berikut:
+
+*Data Perjalanan*
+- Nama Penanggung Jawab:
+- Destinasi Tujuan:
+- Tanggal Keberangkatan:
+- Tanggal Kepulangan:
+- Jumlah Peserta (Pax):
+- Kategori Trip:
+
+*Kebutuhan Layanan*
+- Transportasi:
+- Akomodasi:
+- Tour Guide:
+- Katering/Konsumsi:
+
+*Catatan Khusus:*
+(Tuliskan request khusus, misal: bertepatan dengan libur Lebaran, butuh akses kursi roda, alergi makanan, dll)
+
+Mohon informasi ketersediaannya. Terima kasih!`;
+
 export function FloatingWA() {
   return (
     <motion.a
-      href={`https://wa.me/${WHATSAPP_NUMBER}?text=Halo%20MepuTrip%2C%20saya%20mau%20tanya%20trip`}
+      href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`}
       target="_blank"
       rel="noreferrer"
       initial={{ scale: 0, opacity: 0 }}
